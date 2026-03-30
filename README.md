@@ -2,6 +2,13 @@
 
 A data preprocessing project preparing FitLife's raw smartwatch activity and wellness data for user segmentation by building a clean, coherent, user-level Analytical-Based Table (ABT) and providing initial insights into user activity patterns and health behaviours.
 
+---
+
+
+<img width="563" height="556" alt="Image" src="https://github.com/user-attachments/assets/5c0a144f-5947-4e48-808b-e18cc8232c54" />
+
+
+---
 **Course:** Data Preprocessing 2025/2026 — Nova IMS, Universidade Nova de Lisboa
 
 ---
@@ -63,6 +70,12 @@ A data preprocessing project preparing FitLife's raw smartwatch activity and wel
 5. **Coherence Checks** — user-level consistency (single values for age, gender, height, weight, BMI, education, profession, marital status, city, device model), physiological plausibility (heart rate, BMI, anthropometric ranges), logical validation (duration > 0, distance ≥ 0, calories ≥ 0, calorie efficiency), categorical validity and duplicate detection
 6. **Analytical-Based Table (ABT) Construction** — aggregation from transactional to user-level in SAS Viya, producing a 45-variable ABT covering identifiers, demographics, activity volume, intensity, efficiency and diversity
 7. **Multicollinearity Assessment** — correlation matrix on 15 core numeric behaviour metrics; correlations documented and highlighted, all variables retained per project guidelines
+
+<img width="1168" height="1116" alt="Image" src="https://github.com/user-attachments/assets/96a8f6ae-5b55-4ca4-a71f-fca726204be3" />
+
+
+
+
 8. **Data Visualisations** — 3-page Power BI report with DAX measures and navigation buttons, validating that the cleaned and engineered variables behave as expected
 
 Full detail in [`Group_P_DP_Report.pdf`](./Group_P_DP_Report.pdf).
@@ -76,6 +89,11 @@ The dataset started with 20 variables and 7,071 missing values. After treating o
 Multicollinearity was assessed on 15 core numeric features — volume/workload variables are positively correlated as expected, heart-rate variables correlate with each other, and rate/efficiency variables add complementary dimensions. All variables were retained; correlations were documented to guide downstream analysis.
 
 The Power BI report confirms that the final ABT is coherent, interpretable and contains enough behavioural variability to justify segmentation — users differ meaningfully in engagement, intensity, efficiency and activity diversity.
+
+![Image](https://github.com/user-attachments/assets/112fc3d6-04ca-4282-a703-820b70449cce)
+
+![Image](https://github.com/user-attachments/assets/53fd6ef7-4530-4d9c-9e12-184f5dde61d9)
+
 
 ---
 
@@ -101,15 +119,6 @@ The Power BI report confirms that the final ABT is coherent, interpretable and c
 ## Report
 
 Full methodology, results and interpretation of each step are in [`Group_P_DP_Report.pdf`](./Group_P_DP_Report.pdf).
-
----
-
-## Authors
-
-| Name | Student Number |
-|---|---|
-| Pedro Ramalho | 20231509 |
-| Pedro Salgado | 20241703 |
 
 ---
 
