@@ -70,17 +70,15 @@ A data preprocessing project preparing FitLife's raw smartwatch activity and wel
 5. **Coherence Checks** — user-level consistency (single values for age, gender, height, weight, BMI, education, profession, marital status, city, device model), physiological plausibility (heart rate, BMI, anthropometric ranges), logical validation (duration > 0, distance ≥ 0, calories ≥ 0, calorie efficiency), categorical validity and duplicate detection
 6. **Analytical-Based Table (ABT) Construction** — aggregation from transactional to user-level in SAS Viya, producing a 45-variable ABT covering identifiers, demographics, activity volume, intensity, efficiency and diversity
 7. **Multicollinearity Assessment** — correlation matrix on 15 core numeric behaviour metrics; correlations documented and highlighted, all variables retained per project guidelines
-
-<img width="1168" height="1116" alt="Image" src="https://github.com/user-attachments/assets/96a8f6ae-5b55-4ca4-a71f-fca726204be3" />
-
-
-
-
 8. **Data Visualisations** — 3-page Power BI report with DAX measures and navigation buttons, validating that the cleaned and engineered variables behave as expected
 
 Full detail in [`Group_P_DP_Report.pdf`](./Group_P_DP_Report.pdf).
 
 ---
+<img width="1168" height="1116" alt="Image" src="https://github.com/user-attachments/assets/96a8f6ae-5b55-4ca4-a71f-fca726204be3" />
+
+---
+
 
 ## Key Findings
 
